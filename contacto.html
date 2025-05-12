@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Medical Vice</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo" width="30" class="me-2">
+        Medical Vice
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="prueba.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Contacto</a></li>
+        </ul>
+        <a href="login.html" class="btn btn-outline-success fw-semibold">Iniciar sesión</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contacto Section -->
+  <section class="container py-5 mt-5">
+    <div class="row">
+      <!-- Contacto -->
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2 class="fw-bold text-success mb-4">Contáctanos</h2>
+
+        <p><strong>📍 Direcciones:</strong></p>
+        <ul>
+          <li>Veterinaria Medical Vice - Pet Shop, Av. Vice Z 33, Piura 20001</li>
+          <li>Veterinaria Medical Vice PET Shop sede Bello, 20008, Piura 20001</li>
+        </ul>
+
+        <p class="mt-3"><strong>📞 Teléfono:</strong></p>
+        <div class="d-flex align-items-center gap-3 mb-2">
+          <a href="tel:+51949787238" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="Llamar" width="30">
+          </a>
+          <a href="https://wa.me/51949787238" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" width="30">
+          </a>
+          <span class="ms-2">949 787 238</span>
+        </div>
+
+        <p class="mt-3"><strong>📧 Email:</strong></p>
+        <a href="mailto:vetmedicalvice@gmail.com" class="mb-3 d-block">vetmedicalvice@gmail.com</a>
+
+        <p class="mt-3"><strong>🌐 Redes Sociales:</strong></p>
+        <div class="d-flex align-items-center gap-3">
+          <a href="https://www.facebook.com/MedicalVice/" target="_blank" class="d-flex align-items-center text-decoration-none text-dark">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="32">
+            <span class="ms-2">Veterinaria Medical Vice - Piura</span>
+          </a>
+        </div>
+        <div class="d-flex align-items-center gap-3 mt-2">
+          <a href="https://www.instagram.com/" target="_blank" class="d-flex align-items-center text-decoration-none text-dark">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="32">
+            <span class="ms-2">Veterinaria Medical Vice - Piura</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Mapa -->
+      <div class="col-md-6">
+        <h3 class="fw-bold text-primary mb-3">Ubicaciones en el mapa</h3>
+        <div id="mapCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner rounded shadow">
+
+            <!-- Sede 1 -->
+            <div class="carousel-item active">
+              <div class="ratio ratio-4x3">
+                <iframe
+                  src="https://www.google.com/maps?q=Veterinaria%20Medical%20Vice%20-%20Pet%20Shop,%20Av.%20Vice%20Z%2033,%20Piura%2020001&output=embed"
+                  allowfullscreen="" loading="lazy" style="border:0;"></iframe>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Sede Av. Vice Z 33</h5>
+              </div>
+            </div>
+
+            <!-- Sede 2 -->
+            <div class="carousel-item">
+              <div class="ratio ratio-4x3">
+                <iframe
+                  src="https://www.google.com/maps?q=Veterinaria%20Medical%20Vice%20PET%20Shop%20sede%20Bello,%2020008,%20Piura%2020001&output=embed"
+                  allowfullscreen="" loading="lazy" style="border:0;"></iframe>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Sede Bello Horizonte</h5>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controles -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#mapCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#mapCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
